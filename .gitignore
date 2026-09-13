@@ -1,0 +1,12 @@
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Mavis writes this into the installed copy, not the repository
+_keywords.txt
