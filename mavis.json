@@ -3,5 +3,12 @@
   "description": "Tells you whether the internet is up, and which part is broken when it isn't - your network, your DNS, or your line.",
   "entry": "main.ps1",
   "mode": "speak",
-  "keywords": ["is the internet working", "check my connection", "is the wifi down", "why is the internet slow", "network status"]
+  "keywords": [
+    "is the internet working",
+    "check my connection",
+    "is the wifi down",
+    "why is the internet slow",
+    "network status"
+  ],
+  "category": "Automation"
 }
