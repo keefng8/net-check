@@ -1,14 +1,13 @@
 {
-  "name": "Net Check",
-  "description": "Tells you whether the internet is up, and which part is broken when it isn't - your network, your DNS, or your line.",
-  "entry": "main.ps1",
+  "name": "Connection Check",
+  "description": "Checks whether the internet is actually reachable and how fast the connection responds. Use this when the user asks if the internet is working, if they are online, or why something will not load.",
+  "entry": "main.py",
   "mode": "speak",
   "keywords": [
-    "is the internet working",
-    "check my connection",
-    "is the wifi down",
+    "is my internet working",
+    "am i online",
     "why is the internet slow",
-    "network status"
+    "check my connection"
   ],
   "category": "Automation"
 }

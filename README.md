@@ -1,11 +1,11 @@
-# Net Check
+# Connection Check
 
-Tells you whether the internet is up, and which part is broken when it isn't - your network, your DNS, or your line.
+Checks whether the internet is actually reachable and how fast the connection responds. Use this when the user asks if the internet is working, if they are online, or why something will not load.
 
 A feature for [Mavis AI](https://www.mavis-ai.com) — a desktop voice assistant.
 
 ```
-You: "is the internet working"
+You: "is my internet working"
 ```
 
 Mavis answers out loud:
@@ -20,7 +20,7 @@ It reports the **exception, not the inventory** — the reply is spoken, so a li
 
 ## Install
 
-From the Mavis Appstore — find **Net Check** and click Install.
+From the Mavis Appstore — find **Connection Check** and click Install.
 
 Or install it directly:
 
@@ -31,11 +31,10 @@ install_from_github("https://github.com/keefng8/net-check")
 
 ## What you can say
 
-- *"is the internet working"*
-- *"check my connection"*
-- *"is the wifi down"*
+- *"is my internet working"*
+- *"am i online"*
 - *"why is the internet slow"*
-- *"network status"*
+- *"check my connection"*
 
 These are not matched word for word. Mavis gives them to its language model as examples of intent, so close variations work too.
 
@@ -45,7 +44,7 @@ Separates the three failures that need different responses from you: your router
 
 ## Requirements
 
-None. Windows PowerShell, which every Windows machine already has.
+Python 3.8 or newer, and nothing else — the standard library only. No `pip install`, no model to download, no account.
 
 ## Building your own
 
