@@ -8,5 +8,11 @@ desktop.ini
 .idea/
 *.swp
 
+# Python features leave these behind the first time they are run, and a
+# committed __pycache__ is both noise and a way to ship a stale .pyc that
+# shadows the source someone just edited.
+__pycache__/
+*.py[cod]
+
 # Mavis writes this into the installed copy, not the repository
 _keywords.txt
